@@ -1,0 +1,39 @@
+.labeled-value {
+  margin-bottom: 10px;
+
+  &:first-child {
+    margin-top: -5px;
+  }
+}
+
+.labeled-value__label {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  text-align: center;
+  background: #315386;
+  padding: 2px 5px;
+}
+
+.labeled-value__value-box {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #F2F2F2;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+.labeled-value__value-name {
+  min-width: 70px;
+  padding: 2px 5px;
+}
+
+.labeled-value__value {
+  flex-grow: 1;
+  padding: 2px 5px;
+  background: rgba(49, 83, 134, 0.2);
+  text-align: center;
+}

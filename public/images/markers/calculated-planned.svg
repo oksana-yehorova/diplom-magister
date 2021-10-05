@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 534 534" style="enable-background:new 0 0 534 534;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#AADFF3;}
+	.st2{fill:none;stroke:#0B4160;stroke-width:55;stroke-opacity:0.18;}
+	.st3{fill:#E2E5EC;}
+	.st4{opacity:0.2;fill:#FFFFFF;}
+	.st5{fill:#0B4160;}
+	.st6{display:inline;opacity:0.6;fill:none;stroke:#BA2025;stroke-width:61;stroke-opacity:0.07;}
+	.st7{display:inline;fill:#BA2025;}
+	.st8{display:inline;fill:none;stroke:#BA2025;stroke-width:70;stroke-opacity:0.41;}
+	.st9{display:inline;fill:#FFFFFF;}
+	.st10{fill:#BA2025;}
+	.st11{fill:none;stroke:#0B4160;stroke-width:17;stroke-dasharray:110.3154,0,91.9295,0,91.9295,110.3154;}
+</style>
+<g id="Layer_1" class="st0">
+	<rect x="-22.5" y="-19.5" class="st1" width="590" height="599"/>
+	<circle class="st2" cx="270.48" cy="272.91" r="238.49"/>
+	<circle class="st3" cx="270.48" cy="272.91" r="141.74"/>
+	<circle class="st4" cx="270.48" cy="272.91" r="211"/>
+	<path class="st5" d="M345.61,260.94c5.32,2.4,5.61,9.85,0.49,12.67L207.72,349.7c-6.32,3.48-13.56-3.81-10.22-10.21
+		c10.99-21.05,25.12-51.42,24.5-67.37c-0.62-15.95-17.09-45.13-29.69-65.25c-3.83-6.12,2.82-13.95,9.39-10.98L345.61,260.94z"/>
+</g>
+<g id="Layer_2" class="st0">
+	
+		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -113.2474 270.9981)" class="st6" cx="270.5" cy="272.2" rx="235.44" ry="235.44"/>
+	
+		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -113.2474 270.9981)" class="st7" cx="270.5" cy="272.2" rx="144.88" ry="144.88"/>
+	<circle class="st8" cx="270.5" cy="272.2" r="176.41"/>
+	<path class="st9" d="M345.71,261.31c5.32,2.46,5.56,9.94,0.4,12.72L206.6,349.32c-6.38,3.44-13.58-3.93-10.18-10.33
+		c11.2-21.04,25.62-51.42,25.12-67.43c-0.5-16.02-16.8-45.44-29.28-65.74c-3.8-6.17,2.93-13.98,9.51-10.95L345.71,261.31z"/>
+</g>
+<g id="Layer_3">
+	<circle class="st10" cx="266.48" cy="266.56" r="135"/>
+	<g>
+		<g>
+			<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -110.595 267)" class="st11" cx="267" cy="267" rx="257.5" ry="257.5"/>
+		</g>
+	</g>
+</g>
+</svg>

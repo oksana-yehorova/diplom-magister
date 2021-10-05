@@ -1,0 +1,148 @@
+.kt-datatable__cell {
+  border: 1px solid #ebedf2;
+}
+
+.kt-datatable__toggle-detail {
+  border-right: none;
+  padding-left: 5px !important;
+
+  & + .kt-datatable__cell {
+    border-left: none;
+  }
+}
+
+.kt-datatable--aligned .kt-datatable__head {
+  .kt-datatable__toggle-detail {
+    min-width: 33px;
+    box-sizing: border-box;
+
+    & + .kt-datatable__cell span {
+      transform: translateX(-25px);
+      width: 50px !important;
+      margin-right: -10px;
+    }
+  }
+}
+
+.table--dark {
+  .kt-datatable__head {
+    .kt-datatable__row {
+      background-color: #EBEDF2;
+    }
+  }
+}
+
+.table--center {
+  .kt-datatable__cell span {
+    text-align: center !important;
+    margin: auto !important;
+  }
+}
+
+.table--thin {
+  .kt-datatable__head {
+    .kt-datatable__cell {
+      padding: 5px !important;
+    }
+  }
+
+  .kt-datatable__cell {
+    padding: 6px !important;
+
+    span {
+      font-size: 11px !important;
+    }
+  }
+}
+
+.sum-row {
+  background-color: #EBEDF2;
+
+  .kt-datatable__cell span {
+    font-weight: 600;
+  }
+}
+
+.panel {
+  border: 1px solid rgba(28, 95, 11, 0.3);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  .panel__heading {
+    color: #1C5F0B;
+    background-color: rgba(28, 95, 11, 0.3);
+    padding: 10px;
+    margin: 0;
+  }
+
+  &--blue {
+    border-color: rgba(105, 147, 255, 0.3);
+
+    .panel__heading {
+      color: #6993FF;
+      background-color: rgba(105, 147, 255, 0.3);
+    }
+  }
+
+  &--yellow {
+    border-color: rgba(255, 168, 0, 0.3);
+
+    .panel__heading {
+      color: #FFA800;
+      background-color: rgba(255, 168, 0, 0.3);
+    }
+  }
+
+  .kt-datatable {
+    margin-bottom: 0;
+
+    .kt-datatable__head {
+      .kt-datatable__row {
+        background-color: rgba(28, 95, 11, 0.1);
+
+        .kt-datatable__cell {
+          border-color: transparent !important;
+
+          span {
+            color: #1C5F0B;
+          }
+        }
+      }
+    }
+
+    .kt-datatable__row {
+      border-bottom-color: rgba(28, 95, 11, 0.1) !important;
+    }
+
+    .kt-datatable__cell {
+      border-color: rgba(28, 95, 11, 0.1) !important;
+      padding-top: 8px !important;
+      padding-bottom: 8px !important;
+
+      &:first-child {
+        padding-left: 10px !important;
+        border-left: none !important;
+      }
+
+      &:last-child {
+        border-right: none !important;
+      }
+
+      button {
+        padding: 3px !important;
+        font-size: 9px !important;
+        width: 22px;
+      }
+    }
+
+    .kt-datatable--error {
+      padding: 25px;
+      margin: auto !important;
+    }
+  }
+}
+
+.kt-datatable__body.ps {
+  padding: 0 !important;
+}

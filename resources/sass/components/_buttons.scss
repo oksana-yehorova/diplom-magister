@@ -1,0 +1,28 @@
+.btn--action {
+  background-color: rgba(93, 120, 255, 0.3) !important;
+  color: #384AD7 !important;
+}
+
+.btn--dark {
+  background-color: #ebedf2;
+  color: #595D6E;
+  width: 42px;
+}
+
+.btn--danger {
+  background-color: #BB0A0A !important;
+  color: #fff !important;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.btn--brand {
+  background-color: #5867DD !important;
+  color: #fff !important;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

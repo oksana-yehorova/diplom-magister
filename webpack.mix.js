@@ -12,6 +12,11 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+  .sass('resources/sass/app.scss', 'public/css')
+  .sass('resources/sass/pages/login.scss', 'public/css/pages')
+  .sass('resources/sass/pages/custom.scss', 'public/css/pages')
+  .sass('resources/sass/pages/responsive.scss', 'public/css/pages')
+  .copyDirectory('resources/img', 'public/images')
+
+// copy images folder into laravel public folder
+mix.copyDirectory('resources/metronic/src/assets/media', 'public/assets/media')

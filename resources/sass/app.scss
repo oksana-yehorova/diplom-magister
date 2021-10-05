@@ -1,0 +1,215 @@
+// Theme style
+@import "../metronic/src/assets/sass/style";
+
+// Flags
+@import "~world-flags-sprite/stylesheets/flags16";
+@import "~world-flags-sprite/stylesheets/flags32";
+
+// Layout overrides
+@import "./layout";
+
+// Components
+@import "./components/stats-display";
+@import "./components/buttons";
+@import "./components/no-ui-slider";
+@import "./components/tables";
+@import "./components/labeled-text";
+@import "./components/labeled-value";
+@import "./components/labeled-switch";
+@import "./components/badges";
+@import "./components/map-toolbox";
+@import "./components/input-group-table";
+@import "./components/password-control";
+@import "./components/photo-editor";
+@import "./components/portlets";
+@import "./components/flags";
+@import "./components/messages";
+
+.blockUI.blockOverlay {
+  z-index: 1000 !important;
+}
+
+.sum-row {
+  background-color: rgba(211, 211, 211, 0.4);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#waypoint-editor {
+  .modal-dialog {
+    min-width: 700px;
+
+    .kt-datatable__body {
+      padding: 0;
+
+      span {
+        text-align: left;
+      }
+    }
+  }
+}
+
+#bottom {
+  .progress-bar {
+    display: none !important;
+    overflow: unset;
+    text-align: unset;
+    background-color: transparent;
+  }
+}
+
+#windy {
+  #logo-wrapper {
+    bottom: 1.5rem;
+    top: unset;
+    right: 1rem;
+    left: unset;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    #logo {
+      display: flex;
+      align-items: center;
+      transform: scale(1, 1) translate(-100%, -100%);
+      margin-top: 0;
+      margin-left: 0;
+      left: unset;
+      top: unset;
+
+      &:before {
+        content: 'Weather Animation provided in cooperation with: ';
+        padding-right: 0.5rem;
+        color: white;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  #map-container {
+    .leaflet-control-container {
+      display: block !important;
+    }
+  }
+}
+
+#set-time {
+  width: 235px;
+  margin: 1rem calc((100% - 235px) / 2) 0;
+}
+
+.select2-container .selection .select2-selection--single {
+  height: 38px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.select2-container--default .selection .select2-selection--single .select2-selection__arrow {
+  top: 20px;
+}
+
+.w-200 {
+  width: 200px !important;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.kt-portlet__head--wrapping {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc(100% - 110px);
+  justify-content: flex-start !important;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #48465B;
+}
+
+.text-align-right {
+  text-align: right !important;
+}
+
+.kt-waypoint_modal .kt-portlet__body input[type=text] {
+  height: 36px;
+}
+
+.kt-waypoint_modal,
+.container--condensed {
+  .row {
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+  }
+
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.kt-waypoint_modal .modal-footer {
+  padding-bottom: 10px !important;
+
+  .btn {
+    width: 110px;
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.info-labels_main {
+  border: 1px solid #F2F3F8;
+}
+
+.info-labels_block {
+  margin: 0;
+  text-align: right;
+  padding-right: 10px !important;
+  flex-grow: 1;
+}
+
+.info-labels_value {
+  height: 100%;
+  width: 25%;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 10px !important;
+}
+
+.input-row {
+  .input-group {
+    flex-wrap: nowrap;
+    width: auto;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  input, select, button {
+    min-width: 80px !important;
+  }
+}
+
+#performance-table.disabled [data-action="edit"] {
+  color: white;
+  background: white;
+  cursor: inherit;
+}
+
+#contractual-performance-editor.disabled [data-action="edit"] {
+  color: white;
+  background: white;
+  cursor: inherit;
+}

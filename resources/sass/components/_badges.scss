@@ -1,0 +1,23 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 3px;
+  height: 38px;
+  font-size: 12px;
+
+  i {
+    margin-left: 5px;
+  }
+}
+
+.badge--green {
+  background-color: rgba(28, 95, 11, 0.3);
+  color: #1C5F0B;
+}
+
+.badge--blue {
+  background: rgba(11, 64, 95, 0.3);
+  color: #0B405F;
+}

@@ -1,0 +1,121 @@
+.input-group-table {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid #E0E1E8;
+  border-radius: 5px;
+}
+
+.input-group-table__row {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid #E0E1E8;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.input-group-table__cell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 !important;
+  padding: 2px 17px !important;
+  flex: 1;
+  min-height: 30px;
+  min-width: 25%;
+  max-width: 25%;
+  border-right: 1px solid #E0E1E8;
+  font-size: 11px;
+  color: #74788D;
+  line-height: 1.1;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  &:nth-child(odd) {
+    justify-content: flex-end;
+    text-align: right;
+    background-color: #F2F3F8;
+  }
+
+  input, select {
+    min-width: 100%;
+    max-width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    line-height: 1;
+    background: white;
+  }
+
+  & > div {
+    max-width: 48%;
+  }
+
+  .select2 {
+    display: none !important;
+  }
+}
+
+.input-group-table--thin {
+  .input-group-table__cell {
+    min-width: 50%;
+    max-width: 50%;
+  }
+
+  .info_icons {
+    margin: 0;
+    padding: 10px;
+    height: 22px;
+  }
+}
+
+.input-group-table--uneven {
+  .input-group-table__cell {
+    min-width: 35%;
+    max-width: 35%;
+
+    &:last-child {
+      min-width: 65%;
+      max-width: 65%;
+    }
+  }
+}
+
+.is-editor {
+  .input-group-table__cell {
+    .select2 {
+      display: block !important;
+      width: 100% !important;
+
+      .select2-selection {
+        height: 24px !important;
+
+        .select2-selection__rendered {
+          padding: 0 24px 0 2px !important;
+          line-height: 22px !important;
+
+          .select2-selection__clear {
+            top: 57% !important;
+            right: 7px !important;
+          }
+        }
+
+        .select2-selection__arrow {
+          top: 12px !important;
+          right: -6px !important;
+        }
+      }
+    }
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .select2-dropdown {
+    width: 200px !important;
+  }
+}

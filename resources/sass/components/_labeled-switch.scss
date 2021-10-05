@@ -1,0 +1,40 @@
+.labeled-switch {
+  display: flex;
+  border: 1px solid #E0E1E8;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 11px;
+  cursor: pointer;
+
+  input:checked + .labeled-switch__on {
+    background: #646C9A;
+  }
+
+  input:checked ~ .labeled-switch__off {
+    background: white;
+  }
+}
+
+.labeled-switch__label {
+  background: #F2F3F8;
+  flex-grow: 1;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 4px;
+}
+
+.labeled-switch__on,
+.labeled-switch__off {
+  width: 50px;
+  color: white;
+  text-align: center;
+  padding: 4px;
+}
+
+.labeled-switch__on {
+  background: white;
+}
+
+.labeled-switch__off {
+  background: #646C9A;
+}

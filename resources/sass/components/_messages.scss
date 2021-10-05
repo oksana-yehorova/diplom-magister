@@ -1,0 +1,10 @@
+.message-box {
+  background: rgba(187, 10, 10, 0.3);;
+  padding: 10px 20px 0px;
+  color: #BB0A0A;
+
+  .kt-checkbox.kt-checkbox--danger.kt-checkbox--solid > span,
+  .kt-checkbox.kt-checkbox--danger.kt-checkbox--solid > input:checked ~ span {
+    background: #BB0A0A;
+  }
+}

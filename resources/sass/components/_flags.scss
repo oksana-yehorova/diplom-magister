@@ -1,0 +1,11 @@
+.flag {
+  display: inline-block;
+  min-width: 32px;
+  min-height: 32px;
+  margin-left: 5px;
+}
+
+.f32 span:last-child {
+  display: flex;
+  align-items: center;
+}

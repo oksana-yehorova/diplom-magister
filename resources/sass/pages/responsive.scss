@@ -1,0 +1,419 @@
+@media (max-width: 1024px) {
+  div#kt_header {
+    display: none;
+  }
+
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__topbar-toggler i {
+    color: #fff !important;
+  }
+
+  button#kt_header_mobile_topbar_toggler {
+    background: transparent;
+    border: none;
+  }
+
+  .kt-header-mobile__logo a {
+    background: none !important;
+    color: #fff;
+    font-size: 21px;
+    line-height: 31px;
+    padding: 0 !important;
+    margin-right: 24px;
+  }
+
+  .blue_btn {
+    width: 107.31px;
+  }
+
+  .yellow_btn {
+    width: 100.31px;
+  }
+
+  .map_points label {
+    font-size: 12px;
+  }
+
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__topbar-toggler i {
+    color: #fff !important;
+  }
+
+  /*** tables trip and leg ****/
+  .filter_group label.heading {
+    padding: 0 6px;
+  }
+
+  .filter_bar .input-group-prepend span {
+    width: 60px;
+  }
+
+  .kt-trip__waypoints table th {
+    min-width: 153px;
+  }
+
+  .noonReport  .modal-dialog {
+    max-width: 700px;
+  }
+
+  .noonReport .modal-footer label {
+    padding-right: initial;
+  }
+
+  .kt-trip__waypoints table th:first-child {
+    min-width: 85px;
+  }
+
+  .kt-trip__waypoints table th:nth-child(2), .kt-trip__waypoints table th:nth-child(3)  {
+    min-width: 64px;
+  }
+
+  .kt-trip__waypoints table th:nth-child(5) {
+    min-width: 100px;
+  }
+
+  .kt-trip__waypoints th:nth-child(5) {
+    min-width: 127px !important;
+  }
+
+  /*** tables trip and leg ****/
+  #actualTrip button {
+    min-width: 153px;
+    line-height: 14px;
+    padding: 0 10px;
+  }
+
+  .calculate_planned_w .col-12.col-md-6.col-lg-5.col-xl-5 {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .calculate_planned_w a {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .kt-portlet__head-label.kt-map__points {
+    margin: 10px 0;
+  }
+
+  .kt-subheader__toolbar.kt-subheader.kt-map__actions {
+    position: absolute;
+    width: auto;
+    right: 0;
+  }
+
+  .map_filter_bar .kt-portlet .kt-portlet__head, .kt-portlet__head {
+    flex-wrap: wrap ;
+  }
+
+  .kt-filter__bar .input-group-prepend span {
+    width: 45px;
+  }
+
+  .kt-filter__group label.kt-heading__label {
+    padding: 0 9px;
+  }
+
+  .kt-header-mobile__logo a {
+    background: none !important;
+    color: #fff;
+    font-size: 21px;
+    line-height: 31px;
+    padding: 0 !important;
+    margin-right: 24px;
+  }
+
+  .cal_btn_w {
+    font-size: 10px;
+  }
+
+  .blue_btn {
+    width: 130.31px;
+  }
+
+  .yellow_btn {
+    width: 121.31px;
+  }
+
+  .map_points label {
+    font-size: 12px;
+  }
+
+  .kt-header-mobile .kt-header-mobile__toolbar .kt-header-mobile__topbar-toggler i {
+    color: #fff !important;
+  }
+
+  /*** tables trip and leg ****/
+  .filter_group label.heading {
+    padding: 0 6px;
+  }
+
+  .filter_bar .input-group-prepend span {
+    width: 60px;
+  }
+
+  .kt-trip__waypoints table th {
+    min-width: 153px;
+  }
+
+  .noonReport  .modal-dialog {
+    max-width: 700px;
+  }
+
+  .noonReport .modal-footer label {
+    padding-right: initial;
+  }
+
+  .kt-trip__waypoints  table th:first-child {
+    min-width: 85px;
+  }
+
+  .kt-trip__waypoints table th:nth-child(2), .kt-trip__waypoints table th:nth-child(3)  {
+    min-width: 64px;
+  }
+
+  .kt-trip__waypoints table th:nth-child(5) {
+    min-width: 100px;
+  }
+
+  .kt-trip__waypoints th:nth-child(5) {
+    min-width: 127px !important;
+  }
+
+  .kt-subheader--solid .kt-subheader {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .kt-trip__waypoints .input-group {
+    margin-top: 14px;
+  }
+
+  .kt-trip__waypoints .kt-filter__group {
+    flex-wrap: wrap;
+    width: 74%;
+  }
+
+  .kt-trip__waypoints .kt-filter__group > div {
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .kt-portlet__head-label.kt-map__points {
+    flex-wrap: wrap;
+  }
+
+  .kt-portlet .kt-portlet__head .kt-portlet__head-label.kt-map__points h3.kt-portlet__head-title {
+    width: 100%;
+  }
+
+  .kt-portlet__head-label.kt-map__points .d-flex.align-items-center label {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 12px;
+  }
+
+  .kt-portlet__head-label.kt-map__points .d-flex.align-items-center {
+    width: 46%;
+  }
+
+  .kt-trip__waypoints .kt-portlet__head.border_bottom_0 {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .kt-trip__waypoints .kt-portlet__head-label.kt-margin-l-20 {
+    margin:0 !important;
+  }
+
+  .kt-map__actions  h3.kt-portlet__head-title {
+    width: 100%;
+  }
+
+  /*** modal **/
+  .info-labels > div:nth-child(2) {
+    padding:  0;
+  }
+
+  .waypoints_labels {
+    position: absolute;
+    right: 0;
+    top: 64px;
+  }
+
+  .info-labels.row_2 > div:nth-child(2) {
+    padding: 0;
+  }
+
+  /*** modal **/
+  .tripLegs .filter_bar {
+    justify-content: flex-start !important;
+  }
+
+  .calculate_planned_w input  {
+    margin-bottom: 10px;
+  }
+
+  .calculate_planned_w .cal_btn_w {
+    margin-bottom: 0 !important;
+    margin-top: 0;
+  }
+
+  #actualTrip input {
+    margin-bottom: 10px;
+  }
+
+  #actualTrip a {
+    margin-top: 5px;
+  }
+
+  #actualTrip button {
+    min-width: 33%;
+  }
+
+  #planned_trip input.date_time {
+    margin: 0 !important;
+  }
+
+  .map_filter_bar .kt-portlet__head {
+    flex-wrap: wrap;
+  }
+
+  .kt-portlet__head-label.map_points {
+    flex-wrap: wrap;
+    margin-top: 14px;
+  }
+
+  .d-flex.align-items-center.hideSw {
+    margin: 0;
+  }
+
+  .map_points h3.kt-portlet__head-title {
+    width: 100%;
+  }
+
+  .mapActions {
+    position: absolute;
+    right: 15px;
+  }
+
+  .map_points div {
+    width: 49%;
+    margin-top: 22px !important;
+    margin-bottom: 9px !important;
+  }
+
+  .map_points label {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  #actualTrip .form-group.row div.col-md-3 {
+    width: 50%;
+    max-width: 50%;
+    flex: 50%;
+    margin-bottom: 10px;
+  }
+
+  a.btn.cal_btn_w {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #planned_trip p {
+    flex-wrap: wrap;
+  }
+
+  #planned_trip p label {
+    margin-bottom: 7px !important;
+    margin-top: 7px;
+  }
+
+  .calculate_planned_w .col-12.col-md-6.col-lg-5.col-xl-5 {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .tripWaypoints .kt-portlet__head {
+    flex-wrap: wrap;
+  }
+
+  .tripWaypoints .kt-portlet__head-label.kt-margin-l-20 {
+    margin: 14px 0 !important;
+  }
+
+  .tripWaypoints .filter_group {
+    flex-wrap: wrap;
+    display: flex;
+    width: 81%;
+  }
+
+  .tripWaypoints .kt-portlet__head-label {
+    width: 100%;
+    flex: 100%;
+  }
+
+  .filter_bar .kt-portlet__head.border_bottom_0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .tripWaypoints .filter_group div {
+    width: 100%;
+    margin: 4px 0;
+  }
+
+  .tripWaypoints .filter_bar .kt-subheader__toolbar.kt-subheader {
+    flex-wrap: wrap;
+  }
+
+  .search_option {
+    padding: 0;
+    margin: 11px 0;
+  }
+
+  .kt-header__topbar {
+    justify-content: space-around;
+  }
+
+  .blue_btn {
+    margin: 0 0 !important;
+  }
+
+  .filter_bar {
+    margin-top: 15px;
+  }
+
+  .noonReport input[type="text"] {
+    margin-bottom: 10px;
+  }
+
+  .filter_group label.heading {
+    width: 100%;
+  }
+
+  .kt-subheader--solid .kt-subheader {
+    flex-wrap: wrap;
+    margin-top: 8px;
+    width: 100%;
+  }
+
+  .kt-subheader__main .blue_btn {
+    width: 150.31px;
+  }
+}
+
+@media (max-width: 575px) {
+  .kt-waypoint_modal .modal-header ul.nav.nav-tabs{
+    margin-top: 70px;
+  }
+
+  .kt-waypoints_labels {
+    right: auto;
+    top: 12px;
+    display: flex;
+    left: 15px;
+  }
+}
